@@ -1,0 +1,16 @@
+body{
+	background-image: url('../imagenes/libros.png');
+	background-repeat:space;
+	background-size: 1600px 800px;
+	background-position:inherit;
+	
+}
+
+form{
+	width:450px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+	
+}

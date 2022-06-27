@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Biblioteca</title>
+	<link href="/css/estilo.css" rel="stylesheet"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>	
+</head>
+<body style="background: grey;">
+	<nav class="navbar fixed-top navbar-expand-lg  light bg-dark">
+    <div class="container-fluid">
+       	<a class="navbar-brand" href="#">Biblioteca</a>
+       	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       	</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li>
+                	<a class="nav-link" data-th-href="@{/listadoInicio}"> Listado Libros</a>
+              	</li>
+           </ul>
+           <ul class="navbar-nav mb-2 mb-lg-0" style="margin-right: 120px;">
+				<li class="nav-item"><a class="nav-link" href="#">
+				Bienvenido 
+				</a></li>
+				<li class="nav-item"><a class="nav-link" data-th-href="@{/libro/index}">Ingreso</a></li>
+			</ul>
+	  		
+        </div>
+    </div>
+	</nav>
+	<br><br><br>
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" align="center" style="margin-left: 30px; margin-top:30px; color: beige;">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	    <h1>AGATHA CHRISTIE</h1>
+	       <br><br><br><br><br><br>
+	       <div class="carousel-caption d-none d-md-block">
+	    		<h5>Escritora y dramaturga britanica</h5>
+	    		<p>Autora inglesa del género policíaco, sin duda una de las más prolíficas y leídas del siglo XX.</p>
+  		   </div>
+	    </div>
+	    <div class="carousel-item">
+	    <h1>FEDERICO GARCIA LORCA</h1>
+	      <br><br><br><br><br><br>	
+	      <div class="carousel-caption d-none d-md-block">
+	    		<h5>Poeta, dramaturgo y prosista español.</h5>
+	    		<p>Fue el poeta de mayor influencia y popularidad de la literatura española del siglo XX y como dramaturgo se le considera una de las cimas del teatro español.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	    <h1>MIGUEL DE CERVANTES</h1>
+	       <br><br><br><br><br><br>
+	       <div class="carousel-caption d-none d-md-block">
+	    		<h5>Novelista, poeta, dramaturgo y soldado español.</h5>
+	    		<p>Es ampliamente considerado una de las máximas figuras de la literatura española. </p>
+	       </div>
+	    </div>
+	  </div>
+	  
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden" style="color: white;">Anterior</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden" style="color: white;">Siguiente</span>
+	  </button>
+	</div>
+	<div style="color:gold; border:1px solid; text-align: center;">
+		<h1>BIENVENIDO Al MANTENEDOR DE BIBLIOTECA.</h1>
+		<h1>SI DESEA INFORMACION DE LOS LIBROS CONTENIDOS HAGA CLICK EN LISTADO DE LIBROS.</h1>
+	</div><br>
+	<div style="color:gold; border:1px solid; text-align: center;">
+		<h1>SI UD. ES ADMINISTRADOR INGRESE SUS CREDENCIALES</h1>
+		
+	</div>
+	<footer class="fixed-bottom light bg-dark">
+        <div class="m-3">
+           <p class="text text-center fs-6 text-light text-white">Talento digital - 2022 - Realizado por FRF - <a class="text text-light text-white text-decoration-none" href="https://feriachilenadellibro.cl/" target="_blank">Feria del libro</a> </p>
+        </div>
+    </footer>
+
+</body>
+</html>
